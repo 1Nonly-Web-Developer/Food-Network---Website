@@ -313,3 +313,9 @@ footer .foot-logo a h1 {
 footer p{
     color: #fff;
 }
+
+footer h4{
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 600;
+}
