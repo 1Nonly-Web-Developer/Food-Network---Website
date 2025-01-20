@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Network | Rohan Jaiswal</title>
+    <!-- AOS -Animation -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS link -->
     <link rel="stylesheet" href="/CSS/Style.css">
     <!-- Favicon link -->
@@ -38,7 +41,7 @@
                         <button type="submit">order food</button>
                     </div>
                 </div>
-                <div class="right-content">
+                <div class="right-content" data-aos="fade-left">
                     <img src="/Img/Person Image-1.png" alt="Person-Poster" height="647.23px" width="558.26px"
                         style="position: relative; z-index: 5;" class="right-content-img-1">
                     <img src="/Img/Bg-Dots.png" alt="Dots" class="absolute-dots" height="120px" width="120px">
@@ -73,7 +76,7 @@
                             fill="white" />
                     </svg>
                 </div>
-                <img src="/Img/Person Image-2.png" alt="Person-Poster" width="230px" height="350px">
+                <img src="/Img/Person Image-2.png" alt="Person-Poster" width="230px" height="350px" data-aos="fade-right">
             </div>
             <div class="about-right">
                 <div class="svg-4">
@@ -89,15 +92,17 @@
                         </defs>
                     </svg>
                 </div>
-                <h2>About me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Condimentum diam orci pretium a pharetra,
-                    feugiat cursus. Dictumst risus, sem egestas odio cras
-                    adipiscing vulputate. Nisi, risus in suscipit non. Non
-                    commodo volutpat, pharetra, vel.</p>
-                <div class="contact-btn">
-                    <button type="submit">Contact me</button>
-                </div>
+                <div data-aos="zoom-in">
+                    <h2>About me</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Condimentum diam orci pretium a pharetra,
+                        feugiat cursus. Dictumst risus, sem egestas odio cras
+                        adipiscing vulputate. Nisi, risus in suscipit non. Non
+                        commodo volutpat, pharetra, vel.</p>
+                        <div class="contact-btn">
+                            <button type="submit">Contact me</button>
+                        </div>
+                    </div>
                 <img src="/Img/Bg-Dots.png" alt="Dots" height="120px" width="120px">
             </div>
         </div>
@@ -110,7 +115,7 @@
                     1500s.</p>
             </div>
             <div class="recipi-boxes">
-                <div class="recipi-box">
+                <div class="recipi-box" data-aos="fade-right">
                     <img src="/Img/Project Cover-1.jpg" alt="Recipie-Post-1" height="250px" width="300px">
                     <h3>Recipie Title</h3>
                     <p>Lorem ipsum dolor sit amet,
@@ -118,7 +123,7 @@
                         fermentum amet faucibus sed id nisi
                         lectus at.</p>
                 </div>
-                <div class="recipi-box">
+                <div class="recipi-box" data-aos="fade-right" data-aos-delay="1100">
                     <img src="/Img/Project Cover-2.jpg" alt="Recipie-Post-2" height="250px" width="300px">
                     <h3>Recipie Title</h3>
                     <p>Lorem ipsum dolor sit amet,
@@ -126,7 +131,7 @@
                         fermentum amet faucibus sed id nisi
                         lectus at.</p>
                 </div>
-                <div class="recipi-box">
+                <div class="recipi-box" data-aos="fade-right" data-aos-delay="2300">
                     <img src="/Img/Project Cover-3.png" alt="Recipe-Post-3" height="250px" width="300px">
                     <h3>Recipie Title</h3>
                     <p>Lorem ipsum dolor sit amet,
@@ -138,7 +143,7 @@
         </section>
         <!-- Stats Section -->
         <section id="stats">
-            <div class="stats-container">
+            <div class="stats-container" data-aos="zoom-in">
                 <div class="stats-flex">
                     <div class="card">
                         <h1>700k</h1>
@@ -158,12 +163,19 @@
         <!-- Footer -->
         <footer>
             <div class="foot-logo" style="margin-bottom: 1.5rem;">
-                <a href="Index.html"><h1 style="font-weight: 600;">Food <span>Network</span></h1></a>
+                <a href="Index.html">
+                    <h1 style="font-weight: 600;">Food <span>Network</span></h1>
+                </a>
             </div>
             <p style="letter-spacing: 1px;">Eat healthy to live healthy. Live healthy to live happy.</p>
             <h4>&copy; 2025 Food Network | Designed:- Rohan Jaiswal.</h4>
         </footer>
     </main>
+
+    <!-- AOS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom Script JS -->
+    <script src="JS/Script.js"></script>
 </body>
 
 </html>

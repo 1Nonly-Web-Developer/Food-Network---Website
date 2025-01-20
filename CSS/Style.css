@@ -312,6 +312,20 @@ footer h4 {
     font-weight: 600;
 }
 
+/* Custom Scroll-bar */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 /* Responsive Design */
 
 @media (max-width: 768px) {
